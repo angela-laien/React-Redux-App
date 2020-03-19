@@ -1,4 +1,13 @@
 body {
+
+  background: #FFC0CB;
+  background: -moz-linear-gradient(left, #FFC0CB
+  0%, #DB7093 50%, #FF69B4 100%);
+  background: -webkit-linear-gradient(left, #FFC0CB
+  0%, #DB7093 50%, #FF69B4 100%);
+  background: linear-gradient(to right, #FFC0CB
+  0%, #DB7093 50%, #FF69B4 100%);
+
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

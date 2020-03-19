@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-
+import { Button } from "@material-ui/core";
 import { getData } from '../actions/ghibliActions';
 
 const GhibliForm = props => {
@@ -13,7 +13,9 @@ const GhibliForm = props => {
             {props.isFetchingData ? (
                 <div>We are fetching data...</div>
             ) : (
-                <button onClick={handleGetData}>Get Data</button>
+                <Button variant="contained" color="secondary" onClick={handleGetData}>
+                Get Data
+                </Button> 
             )}
         </div>
     );
